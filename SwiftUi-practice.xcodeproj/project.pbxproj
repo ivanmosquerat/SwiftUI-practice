@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240DC8AB257BCEEB009ED9F9 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 240DC8AA257BCEEB009ED9F9 /* charleyrivers.jpg */; };
 		2438C5E3255D6DA200C73FF2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438C5E2255D6DA200C73FF2 /* CircleImage.swift */; };
 		2438C5E8255D6F4B00C73FF2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438C5E7255D6F4B00C73FF2 /* MapView.swift */; };
 		24706B57257BADEE0094457F /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24706B4A257BADEE0094457F /* yukon_charleyrivers.jpg */; };
@@ -54,6 +55,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		240DC8AA257BCEEB009ED9F9 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = charleyrivers.jpg; path = "../../../../../swiftui resources/HandlingUserInput/StartingPoint/Landmarks/Landmarks/Resources/charleyrivers.jpg"; sourceTree = "<group>"; };
 		2438C5E2255D6DA200C73FF2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2438C5E7255D6F4B00C73FF2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		24706B4A257BADEE0094457F /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yukon_charleyrivers.jpg; path = "../../../../../swiftui resources/BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/yukon_charleyrivers.jpg"; sourceTree = "<group>"; };
@@ -129,6 +131,7 @@
 				24706B51257BADEE0094457F /* turtlerock.jpg */,
 				24706B4E257BADEE0094457F /* twinlake.jpg */,
 				24706B4D257BADEE0094457F /* umbagog.jpg */,
+				240DC8AA257BCEEB009ED9F9 /* charleyrivers.jpg */,
 				24706B4A257BADEE0094457F /* yukon_charleyrivers.jpg */,
 			);
 			path = Resources;
@@ -327,6 +330,7 @@
 				24706B60257BADEE0094457F /* lakemcdonald.jpg in Resources */,
 				24706B5B257BADEE0094457F /* twinlake.jpg in Resources */,
 				24706B5D257BADEE0094457F /* chilkoottrail.jpg in Resources */,
+				240DC8AB257BCEEB009ED9F9 /* charleyrivers.jpg in Resources */,
 				24706B5A257BADEE0094457F /* umbagog.jpg in Resources */,
 				24706B5F257BADEE0094457F /* chincoteague.jpg in Resources */,
 				24ED44BF25596D300016D94D /* Preview Assets.xcassets in Resources */,
