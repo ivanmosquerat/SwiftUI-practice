@@ -11,6 +11,7 @@
 		2401EE212581091500D2213C /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401EE202581091500D2213C /* LandmarksApp.swift */; };
 		2401EE2925810B8000D2213C /* FavoriteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2401EE2825810B8000D2213C /* FavoriteButton.swift */; };
 		240DC8AB257BCEEB009ED9F9 /* charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 240DC8AA257BCEEB009ED9F9 /* charleyrivers.jpg */; };
+		241BC96A259CAD9B00E1DC03 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241BC969259CAD9B00E1DC03 /* CategoryHome.swift */; };
 		2438C5E3255D6DA200C73FF2 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438C5E2255D6DA200C73FF2 /* CircleImage.swift */; };
 		2438C5E8255D6F4B00C73FF2 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2438C5E7255D6F4B00C73FF2 /* MapView.swift */; };
 		24706B57257BADEE0094457F /* yukon_charleyrivers.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 24706B4A257BADEE0094457F /* yukon_charleyrivers.jpg */; };
@@ -73,6 +74,7 @@
 		2401EE202581091500D2213C /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		2401EE2825810B8000D2213C /* FavoriteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteButton.swift; sourceTree = "<group>"; };
 		240DC8AA257BCEEB009ED9F9 /* charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = charleyrivers.jpg; path = "../../../../../swiftui resources/HandlingUserInput/StartingPoint/Landmarks/Landmarks/Resources/charleyrivers.jpg"; sourceTree = "<group>"; };
+		241BC969259CAD9B00E1DC03 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 		2438C5E2255D6DA200C73FF2 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 		2438C5E7255D6F4B00C73FF2 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		24706B4A257BADEE0094457F /* yukon_charleyrivers.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = yukon_charleyrivers.jpg; path = "../../../../../swiftui resources/BuildingListsAndNavigation/StartingPoint/Landmarks/Landmarks/Resources/yukon_charleyrivers.jpg"; sourceTree = "<group>"; };
@@ -164,6 +166,14 @@
 			path = Landmarks;
 			sourceTree = "<group>";
 		};
+		241BC968259CAD7800E1DC03 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				241BC969259CAD9B00E1DC03 /* CategoryHome.swift */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
 		24706B48257BAD660094457F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -189,9 +199,10 @@
 		24706B49257BAD770094457F /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2401EE1B258108A400D2213C /* ContentView.swift */,
+				241BC968259CAD7800E1DC03 /* Categories */,
 				247078EF259B606200D609D7 /* Hikes */,
 				247078CF259B59CA00D609D7 /* Badges */,
-				2401EE1B258108A400D2213C /* ContentView.swift */,
 				2401EE3125810CEC00D2213C /* Landmarks */,
 				2401EE3025810CE600D2213C /* Helpers */,
 			);
@@ -460,6 +471,7 @@
 				24706B7E257BB2510094457F /* LandmarkRow.swift in Sources */,
 				24706B69257BAE8A0094457F /* LandmarkDetail.swift in Sources */,
 				247078C6259B528A00D609D7 /* RotatedBadgeSymbol.swift in Sources */,
+				241BC96A259CAD9B00E1DC03 /* CategoryHome.swift in Sources */,
 				247078F6259B60AF00D609D7 /* HikeDetail.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
