@@ -42,8 +42,16 @@ struct LandmarkDetail: View {
                         .font(.subheadline)
                     Spacer()
                     Text(landmark.state)
-                        .font(.subheadline)
+                        
                 }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
+                Divider()
+                
+                Text("About \(landmark.name)")
+                    .font(.title2)
+                Text(landmark.description)
             }
             .padding()
             

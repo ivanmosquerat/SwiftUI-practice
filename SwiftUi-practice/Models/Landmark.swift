@@ -16,6 +16,7 @@ struct Landmark: Hashable, Codable, Identifiable {
     var state: String
     var park: String
     var category: Category
+    var description: String
     var isFavorite: Bool
     var isFeatured: Bool
 
@@ -35,7 +36,7 @@ struct Landmark: Hashable, Codable, Identifiable {
 
 extension Landmark {
     var image: Image {
-        ImageStore.shared.image(name: imageName)
+        Image(imageName)
     }
 }
 
